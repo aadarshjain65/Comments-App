@@ -1,0 +1,139 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    padding: 64px;
+  }
+}
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-top: 48px;
+  margin-bottom: 10px;
+}
+
+.add-comments-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .add-comments-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.comments-image {
+  width: 280px;
+  height: 220px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .comments-image {
+    width: 380px;
+    height: 300px;
+    order: 1;
+    margin-left: 150px;
+  }
+}
+
+.comments-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  color: #475569;
+}
+
+.comments-input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #475569;
+  border: 1px solid #dee0e3;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+.add-comment-btn {
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #0284c7;
+  border: none;
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 130px;
+  outline: none;
+  cursor: pointer;
+}
+
+.line-break {
+  width: 100%;
+  border: 1px solid #dee0e3;
+}
+
+.comment-count-container {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.comment-count {
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #0284c7;
+  border-radius: 3px;
+  padding-top: 3px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-bottom: 3px;
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.comment-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+  font-weight: 600;
+  margin-top: 18px;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}

@@ -1,0 +1,139 @@
+.comment-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.profile-container {
+  display: flex;
+}
+
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.profile {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  border-radius: 50px;
+  padding-top: 6px;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-bottom: 6px;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #334155;
+  margin-right: 20px;
+  margin-top: 17px;
+  margin-bottom: 0;
+}
+
+.time {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #94a3b8;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.comment {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 400;
+  margin-left: 42px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.like-and-dlt-btn-container {
+  display: flex;
+  flex-direction: space-between;
+  align-items: center;
+}
+
+.like-btn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  margin-right: auto;
+}
+
+.like-btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.like-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.like-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #7e858e;
+  font-weight: 500;
+  margin-left: 14px;
+}
+
+.active-like-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #0ea5e9;
+  font-weight: 500;
+  margin-left: 14px;
+}
+
+.delete-btn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+.delete-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.comment-line {
+  width: 100%;
+  border: 1px solid #dee0e3;
+  margin-top: 0;
+}
